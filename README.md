@@ -1,12 +1,6 @@
 # SICNet
 
-This repository contains code for our paper:
-
-**"Color-Robust Sea Ice Change Detection"**  
-Wenjun Hong; Zhanchao Huang; Yongke Yang; Junchao Cai; Weiwang Guan; Jiajun Zhou； Luping You; Hua Su  
-Presented at IEEE Geoscience and Remote Sensing Letters ( Early Access ) 2025
-
-🔗 [**Read the Paper**](https://ieeexplore.ieee.org/document/11113272)
+["Color-Robust Sea Ice Change Detection"](https://ieeexplore.ieee.org/document/11113272)
 
 ## 📚 Citation
 
