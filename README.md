@@ -1,18 +1,16 @@
-# SICNet
-
-## 📚 Paper
+# 📚 SICNet
 
 [**Paper**](https://ieeexplore.ieee.org/document/11113272) have been published at IEEE GeoScience and Remote Sensing Letters (Early Access, 2025).
 
 Please feel free to offer your comments and suggestions.
 
 
-## 📦 About Dataset
+# 📦 About Dataset
 
 The dataset used in this project is **under public release review** and will be made available once approved.
 
 
-## 🔗 Citation
+# 🔗 Citation
 
 If you find this work useful, please cite it:
 
