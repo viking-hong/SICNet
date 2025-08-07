@@ -194,7 +194,7 @@ class Supervision_Train(pl.LightningModule):
 from thop import profile
 # training
 def main():
-    config = py2cfg('config/seaice/unetformer.py')
+    config = py2cfg('config/seaice/SICNet.py')
     seed_everything(42)
 
     checkpoint_callback = ModelCheckpoint(save_top_k=config.save_top_k, monitor=config.monitor,

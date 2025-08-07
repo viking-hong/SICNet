@@ -1,17 +1,11 @@
 from torch.utils.data import DataLoader
 from geoseg.losses import *
 from geoseg.datasets.seaice_dataset import *
-from geoseg.models.ChangeFormer import ChangeFormerV6
-from geoseg.models.SiamUNet_diff import SiamUnet_diff
-from geoseg.models.SiamUnet_conc import SiamUnet_conc
-from geoseg.models.CDNet34 import CDNet34
-from geoseg.models.Siam_diff_lc import SiamUnet_diff_lc
-from geoseg.models.cacd2net import cacd2net
-from geoseg.models.LCDNet import LCDNet
+from geoseg.models.SICNet import SICNet
 from catalyst.contrib.nn import Lookahead
 from catalyst import utils
 
-net_name = 'LCDNet'
+net_name = 'SICNet'
 cutmix = False
 
 # training hparam
@@ -66,20 +60,8 @@ val_loader = DataLoader(dataset=val_dataset,
                         drop_last=False,
                         persistent_workers=True)
 #############
-if net_name == 'ChangeFormerV6':
-    net = ChangeFormerV6()
-elif net_name == 'SiamUnet_diff':
-    net = SiamUnet_diff(input_nbr=3, label_nbr=num_classes)
-elif net_name == 'SiamUnet_conc':
-    net = SiamUnet_conc(input_nbr=3, label_nbr=num_classes)
-elif net_name == 'CDNet34':
-    net = CDNet34(in_channels=3)
-elif net_name == 'SiamUnet_diff_lc':
-    net = SiamUnet_diff_lc(input_nbr=3, label_nbr=num_classes)
-elif net_name == 'cacd2net':
-    net = cacd2net(input_nbr=3, label_nbr=num_classes)
-elif net_name == 'LCDNet':
-    net = LCDNet(label_nbr=num_classes)
+if net_name == 'SICNet':
+    net = SICNet(input_nbr=3, label_nbr=num_classes)
 else:
     print("未定义模块")
 ##############

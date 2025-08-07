@@ -229,11 +229,11 @@ class wcaf(nn.Module):
         return tensor
 
 
-class SiamUnet_diff_lc(nn.Module):
+class SICNet(nn.Module):
     """SiamUnet_diff segmentation network."""
 
     def __init__(self, input_nbr, label_nbr):
-        super(SiamUnet_diff_lc, self).__init__()
+        super(SICNet, self).__init__()
 
         self.input_nbr = input_nbr
 
