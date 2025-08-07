@@ -1,6 +1,6 @@
 # SICNet
 
-Paper have been published at IEEE GeoScience and Remote Sensing Letters (Early Access) ["Color-Robust Sea Ice Change Detection"](https://ieeexplore.ieee.org/document/11113272)
+Paper have been published at IEEE GeoScience and Remote Sensing Letters (Early Access, 2025) ["Color-Robust Sea Ice Change Detection"](https://ieeexplore.ieee.org/document/11113272)
 
 ## 📚 Citation
 
