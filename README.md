@@ -20,8 +20,8 @@ If you find this work useful, please cite it:
   journal={IEEE Geoscience and Remote Sensing Letters}, 
   title={Color-Robust Sea Ice Change Detection}, 
   year={2025},
-  volume={},
+  volume={22},
   number={},
-  pages={1-1},
-  keywords={Sea ice;Image color analysis;Discrete wavelet transforms;Data models;Training;Robustness;Feature extraction;Remote sensing;Laplace equations;Optical sensors;Sea ice;Change detection;Deep learning;Wavelet transform},
+  pages={1-5},
+  keywords={Sea ice;Image color analysis;Discrete wavelet transforms;Data models;Training;Robustness;Feature extraction;Remote sensing;Laplace equations;Optical sensors;Change detection;deep learning;sea ice;wavelet transform},
   doi={10.1109/LGRS.2025.3595954}}
